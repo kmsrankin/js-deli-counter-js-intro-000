@@ -18,9 +18,9 @@ function currentLine(line) {
   while (line.length > 0) {
     array.push(`${line})`
     return(`The line is currently: ${array}`);
-    line.length++;
-  } return "The line is currently empty."
-  }
+  //   line.length++;
+  // } return "The line is currently empty."
+  // }
 
 //   var i = 0; i++;
 //
