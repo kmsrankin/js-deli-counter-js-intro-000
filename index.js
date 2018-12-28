@@ -15,7 +15,7 @@ function nowServing(katzDeliLine) {
 function currentLine(line) {
   var array = []
   var i = 0
-  while (i >= 0 && line === "true") {
+  while (i >= 0 && line[i] === "true") {
     array.push(`${line[i]})`
     return(`The line is currently: ${array}`);
     i++
