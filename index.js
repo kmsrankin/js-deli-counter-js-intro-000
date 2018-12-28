@@ -17,6 +17,6 @@ function currentLine(line) {
   if (line.length === 0) {
     return "The line is currently empty."
   } else {
-    return `The line is currently ${[i+1]. line[i]}.` // unsure how to number the array
+    return `The line is currently ${[i + 1]. line[i]}.` // unsure how to number the array
   }
 }
