@@ -18,6 +18,7 @@ function currentLine(line) {
   while (line.length > 0) {
     array.push(`${line[i]})`
     return(`The line is currently: ${array}`);
+    i++
   } return "The line is currently empty."
   }
 
